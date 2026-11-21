@@ -107,7 +107,9 @@ Prioritise proactive reminders and confirmation calls for appointments with long
 - Integrate automated reminder workflows.
 - Monitor model performance and data drift.
 - Evaluate the model using additional clinic data.
-
+ 
 ## Author
 
-Independent Data Analytics & Machine Learning Capstone Project
+**Akanksha Singh**  
+
+*Independent Data Analytics, Machine Learning & Generative AI Project*
