@@ -97,10 +97,10 @@ Prioritise proactive reminders and confirmation calls for appointments with long
 
 ## Limitations
 
-- Results are based on a limited appointment dataset and have not been validated in a live clinical setting.
-- The Gemini reason analysis covers only nine nonblank notes.
-- AI-generated recommendations require human review before operational use.
-- Model performance may change across clinics, populations, or time periods.
+- The Generative AI analysis is based on only nine nonblank follow-up notes and cannot establish the primary reasons for missed appointments across all clinics.
+- The model uses a random train-test split rather than a time-based split, so its performance on future appointments remains unverified.
+- The dataset is observational; relationships between booking lead time, reminders, and no-shows do not establish causation.
+- Model performance may vary across clinics and patient populations, requiring ongoing monitoring and validation.
 
 ## Future Improvements
 
