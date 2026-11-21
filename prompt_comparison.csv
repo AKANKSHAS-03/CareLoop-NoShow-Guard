@@ -1,0 +1,5 @@
+note_id,prompt_version,root_cause,allowed_category
+N007,V1,User did not receive the booking confirmation SMS and forgot to complete the process.,False
+N007,V2,forgot_or_no_reminder,True
+N009,V1,Patient unreachable due to phone being powered off,False
+N009,V2,other,True

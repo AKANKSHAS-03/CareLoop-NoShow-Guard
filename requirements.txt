@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+scikit-learn
+pydantic
+google-genai>=2.12.1,<3
+joblib

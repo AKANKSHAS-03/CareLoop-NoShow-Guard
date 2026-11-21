@@ -1,0 +1,56 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,forgot_or_no_reminder,1.0,The patient missed the appointment because she did not receive a reminder and consequently forgot about the scheduled visit.,Verify and update the patient's contact information in the system and schedule the requested follow-up appointment.,valid,"{
+  ""reason"": ""forgot_or_no_reminder"",
+  ""summary"": ""The patient missed the appointment because she did not receive a reminder and consequently forgot about the scheduled visit."",
+  ""recommended_action"": ""Verify and update the patient's contact information in the system and schedule the requested follow-up appointment."",
+  ""confidence"": 1
+}"
+N002,A0897,distance_or_transport,1.0,The patient missed the appointment due to distance from the clinic and lack of transportation.,Provide information on telehealth options or local medical transportation services.,valid,"{
+  ""reason"": ""distance_or_transport"",
+  ""summary"": ""The patient missed the appointment due to distance from the clinic and lack of transportation."",
+  ""recommended_action"": ""Provide information on telehealth options or local medical transportation services."",
+  ""confidence"": 1
+}"
+N003,A0526,cost_or_fee,1.0,The patient missed the appointment due to financial concerns regarding the consultation fee.,Provide information about available payment plans or existing discount programs for follow-up visits.,valid,"{
+  ""reason"": ""cost_or_fee"",
+  ""summary"": ""The patient missed the appointment due to financial concerns regarding the consultation fee."",
+  ""recommended_action"": ""Provide information about available payment plans or existing discount programs for follow-up visits."",
+  ""confidence"": 1
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,1.0,The patient missed the appointment due to a high fever and body aches.,Wait for the patient to recover and contact the clinic to reschedule.,valid,"{
+  ""reason"": ""illness_or_emergency"",
+  ""summary"": ""The patient missed the appointment due to a high fever and body aches."",
+  ""recommended_action"": ""Wait for the patient to recover and contact the clinic to reschedule."",
+  ""confidence"": 1
+}"
+N006,A0507,work_or_schedule,1.0,"The patient missed the appointment due to an urgent, mandatory work meeting.",Reschedule the patient for an evening appointment slot as requested.,valid,"{
+  ""reason"": ""work_or_schedule"",
+  ""summary"": ""The patient missed the appointment due to an urgent, mandatory work meeting."",
+  ""recommended_action"": ""Reschedule the patient for an evening appointment slot as requested."",
+  ""confidence"": 1
+}"
+N007,A0333,forgot_or_no_reminder,0.95,The patient forgot the appointment because they did not receive an SMS reminder.,Reschedule the appointment and verify the patient's contact number for SMS notifications.,valid,"{
+  ""reason"": ""forgot_or_no_reminder"",
+  ""summary"": ""The patient forgot the appointment because they did not receive an SMS reminder."",
+  ""recommended_action"": ""Reschedule the appointment and verify the patient's contact number for SMS notifications."",
+  ""confidence"": 0.95
+}"
+N008,A0222,distance_or_transport,1.0,The patient missed the appointment due to a city bus strike and lack of available transportation.,Offer telehealth options or assist with identifying alternative medical transport services.,valid,"{
+  ""reason"": ""distance_or_transport"",
+  ""summary"": ""The patient missed the appointment due to a city bus strike and lack of available transportation."",
+  ""recommended_action"": ""Offer telehealth options or assist with identifying alternative medical transport services."",
+  ""confidence"": 1
+}"
+N009,A0977,other,0.95,The patient could not be reached after three attempts as their phone was turned off.,Send a follow-up letter or postcard to the patient's registered home address.,valid,"{
+  ""reason"": ""other"",
+  ""summary"": ""The patient could not be reached after three attempts as their phone was turned off."",
+  ""recommended_action"": ""Send a follow-up letter or postcard to the patient's registered home address."",
+  ""confidence"": 0.95
+}"
+N010,A0596,work_or_schedule,1.0,The patient missed the appointment due to an unexpected work shift change at the factory.,Reschedule the patient for a Saturday appointment slot.,valid,"{
+  ""reason"": ""work_or_schedule"",
+  ""summary"": ""The patient missed the appointment due to an unexpected work shift change at the factory."",
+  ""recommended_action"": ""Reschedule the patient for a Saturday appointment slot."",
+  ""confidence"": 1
+}"

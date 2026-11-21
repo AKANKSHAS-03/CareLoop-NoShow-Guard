@@ -1,0 +1,21 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+*credentials*.json
+*api_key*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
